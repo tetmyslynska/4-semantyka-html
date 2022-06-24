@@ -1,12 +1,11 @@
 body {
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 #menu {
   text-align: center;
   background: #222;
-  
 }
 
 #menu .menu-item {
@@ -19,12 +18,12 @@ body {
   margin: 0;
 }
 
-#menu .menu-item a{
+#menu .menu-item a {
   text-decoration: none;
   color: #fff;
 }
 
-#menu .menu-item a:hover{
+#menu .menu-item a:hover {
   color: #999;
 }
 
@@ -33,7 +32,7 @@ body {
   text-align: center;
 }
 
-#header img{
+#header img {
   width: 100%;
 }
 
@@ -47,7 +46,6 @@ body {
   right: 0;
   text-transform: uppercase;
   color: #fff;
-  
 }
 
 #about {
@@ -55,13 +53,13 @@ body {
   padding: 0 50px;
 }
 
-#about #about-header{
+#about #about-header {
   font-size: 30px;
   text-align: center;
   margin-bottom: 20px;
 }
 
-#about .about-content{
+#about .about-content {
   text-align: center;
 }
 
@@ -70,14 +68,15 @@ body {
   background: #222;
 }
 
-#contact #contact-header{
+#contact #contact-header {
   font-size: 30px;
   text-align: center;
   margin-bottom: 20px;
   color: #fff;
 }
 
-#contact #contact-content {
+#contact,
+#contact-content {
   text-align: center;
   color: #fff;
 }
@@ -88,4 +87,8 @@ body {
 
 #contact #contact-content a:hover {
   color: #999;
+}
+
+#contact-content {
+  font-style: italic;
 }
